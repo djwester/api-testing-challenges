@@ -35,3 +35,8 @@ The challenge:
 
 There is a secret profile (profile 1) that you are not supposed to be able to access. Using only API calls, can you find out the name of that profile?
 
+### Biggest ID
+The challenge:
+
+What is the biggest ID you can give a post or comment in the system? Do you notice any interesting side effects while you are trying to figure this out?
+
