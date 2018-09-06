@@ -4,15 +4,7 @@
       "id": 1,
       "title": "The FIRST blog post",
       "body": "This is my first blog post",
-      "profileId": 1,
-      "avatarUrl": null
-    },
-    {
-      "title": "The FIRST blog post",
-      "body": "This is my first blog post",
-      "profileId": 1,
-      "avatarId": 1,
-      "id": 2
+      "profileId": 1
     }
   ],
   "comments": [
