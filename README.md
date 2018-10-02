@@ -12,14 +12,14 @@
 
 
 ## Install
-After cloning the repo locally you can install it by calling
+After cloning the repo locally you can install it by opening a command prompt in the location to which you have cloned it and then calling the command below. Note that this requires you to have the npm package manger installed. If you don't have it, you can easily install it from [here](https://www.npmjs.com/get-npm)
 
 ```bash
 $ npm install
 ```
 
 ### Setup
-Once you have it installed you can start the server by calling
+Once you have it installed you can start the server for the challenge you are interested in by calling
 
 ```bash
 $ node <server-name>
@@ -30,7 +30,7 @@ Where the available servers are:
 - find_the_500_server.js
 
 ## Challenges
-These challenges are all designed to be 'black box.' The purpose of them is to help you learn more about how APIs work and what kinds of things to think about when testing them. For you to get the most of them, try to solve them all by using only API calls. Don't go looking in the server implementations or the databases for the answers.  See if you can find them with only using the APIs
+These challenges are all designed to be 'black box.' The purpose of them is to help you learn more about how APIs work and what kinds of things to think about when testing them. For you to get the most out of them, try to solve them by using only API calls. Don't go looking in the server implementations or the databases for the answers. See if you can figure them out with only using the APIs
 
 ### Secret profile
 The challenge:
@@ -101,6 +101,8 @@ PUT    /avatars/<id>
 ```
 
 DELETE commands will also work, but you shouldn't need them to solve this challenge
+
+NOTE that you can get the database for this into a bad state. If you feel like things are a mess and you can't proceed anymore you can reset the challenge and start over, by reseting the find_the_500_db.json file back to it's original state (use git to do this) and then restarting the server.
 
 You may also need to use the following parameters:
 
