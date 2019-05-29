@@ -87,7 +87,7 @@ GET    /profiles/<id>
 GET    /avatars
 GET    /avatars/<id>
 ```
-POST and PUT commands are also available. To figure out what parameters they take, just do a GET call on the corresponding resource to see what paramters it has.
+POST and PUT commands are also available. To figure out what parameters they take, just do a GET call on the corresponding resource to see what parameters it has.
 ```
 POST    /blogposts
 POST    /comments
